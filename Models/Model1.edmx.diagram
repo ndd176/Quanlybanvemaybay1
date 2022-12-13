@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="634b82b497594e058fcb38b9cab582d2" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.CHITIETCHUYENBAY" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.CHUYENBAY" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.GOIHANHLY" Width="1.5" PointX="3.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.HANGKHOANG" Width="1.5" PointX="3.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.HOADON" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.KHACHHANG" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.KHUYENMAI" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.PHIEUDATVE" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.PHIEUDOIHUYVE" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.PHIEUKYGUIHANHLY" Width="1.5" PointX="6" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.User" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVeMayBayModel1.VEMAYBAY" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__CHUYENBAY__MaChi__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__VEMAYBAY__MaChiT__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__PHIEUKYGU__MaGoi__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__PHIEUDATV__TenHa__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__HOADON__MaKH__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__HOADON__MaKM__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__PHIEUDATVE__MaKH__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__PHIEUDOIHU__MaKH__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__PHIEUKYGUI__MaKH__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__VEMAYBAY__MaKH__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVeMayBayModel1.FK__PHIEUDOIHU__MaVe__5812160E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

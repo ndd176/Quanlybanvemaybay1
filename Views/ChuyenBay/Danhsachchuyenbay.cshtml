@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Quanlybanvemaybay1.Models.CHITIETCHUYENBAY>
+
+@{
+    ViewBag.Title = "Danh sách chuyến bay";
+}
+
+<h2>Danhsachchuyenbay</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+    @using (Html.BeginForm("Index", "ChuyenBay", FormMethod.Get))
+    {
+<p>
+
+    @*Sanden: @Html.DropDownList("Ha Noi"," sai gon")*@
+
+    Title: @Html.TextBox("SearchString") <br />
+    <input type="submit" value="Filter" />
+</p>
+}
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GioDi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GioDen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sanden)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ngay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GioDi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GioDen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sandi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sanden)
+                </td>
+                <td>
+                    @Html.ActionLink("Dat ve", "Dat ve", new { id = item.MaChiTietChuyenBay }) |
+
+                    @Html.ActionLink("Edit", "Edit", new { id = item.MaChiTietChuyenBay }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.MaChiTietChuyenBay }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.MaChiTietChuyenBay })
+                </td>
+            </tr>
+        }
+
+    </table>
